@@ -42,6 +42,8 @@ Test your connection by trying to SSH into the cluster:
 ssh <username>@mentat005.dccn.nl    
 ```
 This will prompt you to enter your password. This is the password you use to log into the cluster. Once you have entered your password, you should be able to access the cluster.
+
+If that works, exit the cluster by running the `exit` command.
 </details>
 
 <details>
