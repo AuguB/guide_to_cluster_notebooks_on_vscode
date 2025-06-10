@@ -233,9 +233,9 @@ Start Eduvpn and connect to the DCCN network.
 </details>
 
 <details>
-<summary>2.1.2 Connect to the cluster using VSCode</summary>
+<summary>2.1.2 Open your project on the cluster in VSCode</summary>
 
-Open VSCode and connect to the cluster. 
+Open VSCode, connect to the cluster, and navigate to the project folder that you want to work on. 
 
 Pro tip: `Ctrl+R` opens a list of recent projects in VSCode. If you've recently opened a project on the cluster, this should also be listed, and clicking it will connect to the remote and open the folder. Super easy!
 
