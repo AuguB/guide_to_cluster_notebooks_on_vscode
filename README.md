@@ -99,7 +99,7 @@ If it all works as it should, you should no longer have to enter your password w
 <details>
 <summary>1.1.5 Optional: Add the DCCN node to the SSH config</summary>
 
-If you want even easier access, you can add the DCCN node to the SSH config. This will allow you to SSH into the cluster by simply running `ssh dccn`. Go to the `~/.ssh/config` file and add the following lines:
+If you want even easier access, you can add the DCCN node to the SSH config. This will allow you to SSH into the cluster by simply running `ssh dccn`. On your local device, go to the `~/.ssh/config` file and add the following lines:
 ```bash
 Host dccn
     HostName mentat005.dccn.nl
