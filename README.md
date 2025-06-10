@@ -164,27 +164,10 @@ jupyter notebook password
 
 You will be prompted to enter a password, and then to confirm it. This will set a password for the jupyter notebook. You will need to remember this password, as you will have to enter it every time you want to start the jupyter notebook.
 </details>
+
 <details>
 
-<summary>1.2.3 Set a Jupyter password</summary>
-
-We have to set a password for the jupyter notebook. Activate the conda environment by running the following command:
-
-```bash
-source activate <env_name>
-```
-
-Then, you can set the password by running the following command:
-
-```bash
-jupyter notebook password
-```
-
-You will be prompted to enter a password, and then to confirm it. This will set a password for the jupyter notebook. You will need to remember this password, as you will have to enter it every time you want to start the jupyter notebook.
-</details>
-<details>
-
-<summary>1.2.4 Create a job submission script</summary>
+<summary>1.2.3 Create a job submission script</summary>
 
 Now open the command palette by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac). Type `new file` and hit enter. You'll see a new file appear in the left sidebar, and you should name it `jupyter_<project_name>.sh`, and replace `<project_name>` with the name of your project. Note that this file should be in your projects' source directory.
 
@@ -215,7 +198,7 @@ You can adjust the requirements in the file to your needs. The DCCN's instructio
 
 
 <details>
-<summary>1.2.5 Test the setup</summary>
+<summary>1.2.4 Test the setup</summary>
 
 We can test the setup by running the job submission script. Open the integrated terminal in VSCode by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) and typing `Terminal: Open Integrated Terminal`. Then, make sure that your terminal is also in the project folder. Run the script by running the following command:
 
